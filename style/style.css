@@ -21,18 +21,28 @@ html{
 nav ul{
     margin: 1rem 2rem;
     list-style: none;
-    line-height: 4rem;
+    line-height: 1.5rem;
     font-size: 1.5rem;
     text-align: center;
 }
 nav li{
-    width: 4rem;
+    padding: 1.5rem;
     display: inline-block;
     border-radius: 50%;
     background-color: white;
+    overflow: hidden;
 }
 
-nav li:hover{
+nav li a{
+    text-decoration: none;
+    line-height: 1.5rem;
+    color: black;
+    border-radius: 50%;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+}
+
+li a:hover{
     box-shadow: 5px 5px 15px 5px #000000;
 }
 
@@ -47,15 +57,15 @@ nav li:hover{
     color: yellow;
 }
 
-.hero.red{
+#red{
     background-color: red;
 }
 
-.hero.green{
+#green{
     background-color: green;
 }
 
-.hero.yellow{
+#yellow{
     background-color: yellow;
     color: green;
 }
