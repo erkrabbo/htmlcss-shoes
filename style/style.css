@@ -8,6 +8,7 @@
 html{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 .navigation{
@@ -26,24 +27,29 @@ nav ul{
     text-align: center;
 }
 nav li{
-    padding: 1.5rem;
     display: inline-block;
     border-radius: 50%;
     background-color: white;
-    overflow: hidden;
+    box-shadow: 5px 5px 15px 5px #474b4e;
 }
 
 nav li a{
+    display: inline-block;
     text-decoration: none;
     line-height: 1.5rem;
     color: black;
     border-radius: 50%;
     line-height: 1.5rem;
     font-size: 1.5rem;
+    padding: 1.5rem;
 }
 
 li a:hover{
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 1px #000000;
+}
+
+li a:active{
+    background-color: #9c9c9c;
 }
 
 
