@@ -9,3 +9,19 @@ html{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 16px;
 }
+
+.navigation{
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+}
+
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+}
