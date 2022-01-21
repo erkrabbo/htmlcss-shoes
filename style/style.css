@@ -32,6 +32,10 @@ nav li{
     background-color: white;
 }
 
+nav li:hover{
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
 .hero{
     background-color: red;
     width: 100%;
